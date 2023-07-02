@@ -639,24 +639,12 @@ video {
   right: 0px;
 }
 
-.top-0 {
-  top: 0px;
+.right-4 {
+  right: 1rem;
 }
 
 .top-\[-1em\] {
   top: -1em;
-}
-
-.right-\[-1em\] {
-  right: -1em;
-}
-
-.right-1 {
-  right: 0.25rem;
-}
-
-.right-4 {
-  right: 1rem;
 }
 
 .isolate {
@@ -2055,10 +2043,6 @@ video {
   font-size: 30px;
 }
 
-.text-\[20px\] {
-  font-size: 20px;
-}
-
 .text-\[36px\] {
   font-size: 36px;
 }
@@ -2493,7 +2477,7 @@ ol {
 section>h2::after {
   content: '';
   display: block;
-  background: url(images/headding-bg.png) no-repeat center/contain;
+  background: url(../images/headding-bg.png) no-repeat center/contain;
   width:  202px;
   height: 23px;
 }
@@ -2569,16 +2553,12 @@ section>h2::after {
 }
 
 @media (min-width: 640px) {
-  .sm\:right-\[-1em\] {
-    right: -1em;
+  .sm\:right-\[-0\.5em\] {
+    right: -0.5em;
   }
 
   .sm\:top-\[-1em\] {
     top: -1em;
-  }
-
-  .sm\:right-\[-0\.5em\] {
-    right: -0.5em;
   }
 
   .sm\:text-\[50px\] {
@@ -2626,10 +2606,6 @@ section>h2::after {
 
   .md\:text-\[20px\] {
     font-size: 20px;
-  }
-
-  .md\:text-\[50px\] {
-    font-size: 50px;
   }
 }
 

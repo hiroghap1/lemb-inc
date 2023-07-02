@@ -15,7 +15,7 @@ ol {
 section>h2::after {
     content: '';
     display: block;
-    background: url(images/headding-bg.png) no-repeat center/contain;
+    background: url(../images/headding-bg.png) no-repeat center/contain;
     width:  202px;
     height: 23px;
 }
