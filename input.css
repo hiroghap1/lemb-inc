@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Noto Serif JP', serif;
+}
+ul {
+    list-style-type: initial;
+}
+ol {
+    list-style-type: decimal;
+}
+
+section>h2::after {
+    content: '';
+    display: block;
+    background: url(images/headding-bg.png) no-repeat center/contain;
+    width:  202px;
+    height: 23px;
+}
+.omochi:hover>.omochi-1 {
+    display: none;
+}
+.omochi:hover>.omochi-2 {
+    display: block;
+}
+.writing-v {
+ writing-mode: vertical-rl;
+}
